@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid</title>
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="a lemon"><img src="images/90.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+    <div class="cell" data-text="that's good!"><img src="images/images-62.jpeg"></div>
+  </div>
+
+  <script>
+    document.querySelectorAll('[data-text="a lemon"]').forEach(function (cell) {
+      cell.onclick = function () {
+        cell.style.visibility = 'hidden';
+      };
+    });
+  </script>
+</body>
+</html>
